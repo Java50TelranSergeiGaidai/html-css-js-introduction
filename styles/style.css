@@ -5,13 +5,20 @@
 .section-class {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: 50vw;
 }
-.div-class{
+.div-class-black{
     width: 5vw;
     height: 5vw;
     border: solid 1px gray;
+    background-color: black;
+}
+.div-class-white{
+    width: 5vw;
+    height: 5vw;
+    border: solid 1px gray;
+    background-color: white;
 }
 body{
     display: flex;
